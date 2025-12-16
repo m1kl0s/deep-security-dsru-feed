@@ -46,11 +46,7 @@ def extract_update_content(url):
     for tag in soup(["script", "style", "nav", "footer", "header"]):
         tag.decompose()
 
-    # Primært indhold
-    container = soup.find("main")
-    if not container:
-        container = soup.body
-
+    container = soup.find("main") or soup.body
     if not container:
         raise RuntimeError("Could not locate readable content")
 
@@ -61,38 +57,46 @@ def extract_update_content(url):
         "See all Security Updates"
     ]
 
-    noise_phrases = [
-        "Email",
-        "Facebook",
-        "Twitter",
-        "Google+",
-        "Linkedin",
-        "Read more"
-    ]
+    noise_phrases = {
+        "Email", "Facebook", "Twitter", "Google+",
+        "Linkedin", "Read more"
+    }
 
     for line in container.stripped_strings:
         line = line.strip()
 
-        # stop parsing når marketing starter
+        # Stop når marketing starter
         if any(stop in line for stop in stop_phrases):
             break
 
-        # filtrér kendt støj
+        # Fjern støj
         if line in noise_phrases:
             continue
 
-        # filtrér tom / støj
-        if len(line) < 3:
+        if len(line) < 2:
+            lines.append("")  # bevar tom linje
             continue
 
         lines.append(line)
 
-    # ⬇️ VIGTIGT: return er NU uden for loopet
+    # ── FORMATERING ─────────────────────────────
     text = "\n".join(lines)
-    html = f"<pre>{text}</pre>"
+
+    # Normalisér whitespace
+    while "\n\n\n" in text:
+        text = text.replace("\n\n\n", "\n\n")
+
+    # Konverter til HTML der virker i RSS-readers
+    html = (
+        "<pre style=\"white-space: pre-wrap; font-family: monospace;\">"
+        + text.replace("&", "&amp;")
+              .replace("<", "&lt;")
+              .replace(">", "&gt;")
+              .replace("\n", "<br>")
+        + "</pre>"
+    )
+
     return html
-
-
 
 
 
