@@ -14,48 +14,51 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; SecurityResearchBot/1.0)"
 }
 
+# -------------------------------------------------------------------
+
 def get_latest_rule_update():
     r = requests.get(INDEX_URL, headers=HEADERS, timeout=30)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
 
-    # Første "Read more" link = seneste Rule Update
     link = soup.find("a", string=lambda x: x and "Read more" in x)
     if not link:
         raise RuntimeError("Could not find Rule Update link")
 
-    title = link.find_previous("h2")
-    title_text = title.get_text(strip=True) if title else "Deep Security Rule Update"
+    title_tag = link.find_previous("h2")
+    title = title_tag.get_text(strip=True) if title_tag else "Deep Security Rule Update"
 
     href = link["href"]
     if not href.startswith("http"):
         href = BASE_URL + href
 
-    return title_text, href
+    return title, href
+
+# -------------------------------------------------------------------
 
 def extract_update_content(url):
-    time.sleep(random.uniform(2, 4))  # vær flink mod Trend Micro
+    time.sleep(random.uniform(2, 4))
 
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
 
-    # Fjern støj
+    # fjern støj
     for tag in soup(["script", "style", "nav", "footer", "header"]):
         tag.decompose()
 
     container = soup.find("main") or soup.body
     if not container:
-        raise RuntimeError("Could not locate readable content")
+        raise RuntimeError("No readable content found")
 
     stop_phrases = [
         "Featured Stories",
         "See all Security Updates"
     ]
 
-    noise_phrases = {
+    noise = {
         "Email", "Facebook", "Twitter", "Google+", "Linkedin", "Read more"
     }
 
@@ -65,41 +68,40 @@ def extract_update_content(url):
 
         if any(stop in line for stop in stop_phrases):
             break
-
-        if line in noise_phrases:
+        if line in noise:
             continue
-
         if len(line) < 2:
             continue
 
         lines.append(line)
 
-    # 🔹 Konverter til pæn HTML
-    html_lines = []
-    for line in lines:
-        # Sektionstitler → fed
-        if line.endswith("Rules:") or line == "DESCRIPTION":
-            html_lines.append(f"<strong>{line}</strong><br><br>")
+    # ---- HTML OPBYGNING ----
+    html_parts = []
+    for l in lines:
+        # sektionstitler
+        if l.endswith("Rules:") or l.isupper():
+            html_parts.append(f"<h3>{l}</h3>")
         else:
-            html_lines.append(f"{line}<br>")
+            html_parts.append(f"{l}<br>")
 
-    return "".join(html_lines)
+    return "\n".join(html_parts)
 
+# -------------------------------------------------------------------
 
-
-
-
-def generate_rss(title, link, content):
-    FEED_URL = "https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml"
-
+def generate_rss(title, link, html_content):
     fg = FeedGenerator()
-    fg.id(FEED_URL)
+    fg.id(INDEX_URL)
     fg.title("Trend Micro – Deep Security Rule Updates")
     fg.link(href=INDEX_URL, rel="alternate")
 
-    fg.link(href=FEED_URL, rel="self", type="application/rss+xml")
+    # 🔑 VALIDERINGS-FIX
+    fg.link(
+        href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml",
+        rel="self",
+        type="application/rss+xml"
+    )
 
-    fg.subtitle("Official Deep Security Rule Update feed (scraped)")
+    fg.subtitle("Unofficial RSS feed for Trend Micro Deep Security Rule Updates")
     fg.language("en")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
@@ -109,15 +111,14 @@ def generate_rss(title, link, content):
     fe.link(href=link)
     fe.published(datetime.now(timezone.utc))
 
-    # Kort summary (fallback)
-    fe.description("Latest Deep Security Rule Update")
-
-    # Fuldt indhold (HTML)
-    fe.content(content, type="CDATA")
+    fe.description(
+        "Latest Trend Micro Deep Security Rule Update. See full details in content."
+    )
+    fe.content(html_content, type="CDATA")
 
     fg.rss_file(RSS_FILE)
 
-
+# -------------------------------------------------------------------
 
 if __name__ == "__main__":
     title, link = get_latest_rule_update()
