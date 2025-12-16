@@ -1,35 +1,39 @@
-name: Update Deep Security RSS
+name: Update Deep Security Rule Update RSS
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    # Kør én gang dagligt kl. 07:00 UTC
+    - cron: "0 7 * * *"
   workflow_dispatch:
 
 jobs:
-  update:
+  update-rss:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write   # KRITISK – ellers får du 403
+
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: "3.11"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
-    - name: Generate RSS
-      run: |
-        python generate_rss.py
+      - name: Generate Deep Security RSS
+        run: |
+          python generate_rss.py
 
-    - name: Commit & push if changed
-      run: |
-        git config user.name "github-actions"
-        git config user.email "actions@github.com"
-        git add deep_security_vulns.xml
-        git diff --quiet && git diff --staged --quiet || git commit -m "Update RSS feed"
-        git push
+      - name: Commit and push RSS if changed
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add deep_security_updates.xml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update Deep Security Rule Update RSS"
+          git push
