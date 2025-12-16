@@ -88,35 +88,48 @@ def extract_update_content(url):
 
 # -------------------------------------------------------------------
 
-def generate_rss(title, link, html_content):
+def generate_rss(title, source_link, content):
     fg = FeedGenerator()
     fg.id(INDEX_URL)
     fg.title("Trend Micro – Deep Security Rule Updates")
     fg.link(href=INDEX_URL, rel="alternate")
+    fg.language("en")
 
-    # 🔑 VALIDERINGS-FIX
+    # Atom self-link (vigtigt for kompatibilitet)
     fg.link(
         href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml",
         rel="self",
         type="application/rss+xml"
     )
 
-    fg.subtitle("Unofficial RSS feed for Trend Micro Deep Security Rule Updates")
-    fg.language("en")
+    fg.subtitle("Self-contained Deep Security Rule Update feed")
     fg.lastBuildDate(datetime.now(timezone.utc))
 
     fe = fg.add_entry()
-    fe.id(hashlib.sha256(link.encode()).hexdigest())
+
+    # GUID = hash af source-link (stabil)
+    fe.id(hashlib.sha256(source_link.encode()).hexdigest())
+    fe.guid(hashlib.sha256(source_link.encode()).hexdigest(), permalink=False)
+
     fe.title(title)
-    fe.link(href=link)
+
+    # 👇 VIGTIGT:
+    # Link peger IKKE til Trend Micro
+    # men til feedet selv
+    fe.link(
+        href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml"
+    )
+
     fe.published(datetime.now(timezone.utc))
 
-    fe.description(
-        "Latest Trend Micro Deep Security Rule Update. See full details in content."
-    )
-    fe.content(html_content, type="CDATA")
+    # Kort description (kan være samme som content)
+    fe.description("Deep Security Rule Update – full content embedded")
+
+    # FULD HTML
+    fe.content(content, type="CDATA")
 
     fg.rss_file(RSS_FILE)
+
 
 # -------------------------------------------------------------------
 
