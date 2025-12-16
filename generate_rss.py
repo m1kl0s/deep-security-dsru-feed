@@ -90,22 +90,33 @@ def extract_update_content(url):
 
 
 def generate_rss(title, link, content):
+    FEED_URL = "https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml"
+
     fg = FeedGenerator()
-    fg.id(INDEX_URL)
+    fg.id(FEED_URL)
     fg.title("Trend Micro – Deep Security Rule Updates")
     fg.link(href=INDEX_URL, rel="alternate")
+
+    fg.link(href=FEED_URL, rel="self", type="application/rss+xml")
+
     fg.subtitle("Official Deep Security Rule Update feed (scraped)")
     fg.language("en")
+    fg.lastBuildDate(datetime.now(timezone.utc))
 
     fe = fg.add_entry()
     fe.id(hashlib.sha256(link.encode()).hexdigest())
     fe.title(title)
     fe.link(href=link)
     fe.published(datetime.now(timezone.utc))
+
+    # Kort summary (fallback)
     fe.description("Latest Deep Security Rule Update")
+
+    # Fuldt indhold (HTML)
     fe.content(content, type="CDATA")
 
     fg.rss_file(RSS_FILE)
+
 
 
 if __name__ == "__main__":
