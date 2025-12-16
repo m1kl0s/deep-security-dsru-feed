@@ -57,12 +57,37 @@ def extract_update_content(url):
     if not container:
         raise RuntimeError("Could not locate readable content")
 
-    lines = []
-    for line in container.stripped_strings:
-        # filtrér meget korte / støjlinjer
-        if len(line) < 3:
-            continue
-        lines.append(line)
+lines = []
+stop_phrases = [
+    "Featured Stories",
+    "See all Security Updates"
+]
+
+noise_phrases = [
+    "Email",
+    "Facebook",
+    "Twitter",
+    "Google+",
+    "Linkedin",
+    "Read more"
+]
+
+for line in container.stripped_strings:
+    line = line.strip()
+
+    # stop helt når vi når marketing
+    if any(stop in line for stop in stop_phrases):
+        break
+
+    # filtrér kendt støj
+    if line in noise_phrases:
+        continue
+
+    # filtrér meget korte / meningsløse linjer
+    if len(line) < 3:
+        continue
+
+    lines.append(line)
 
     return "\n".join(lines)
 
