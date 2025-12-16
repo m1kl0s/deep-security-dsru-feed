@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 from datetime import datetime, timezone
-fe.published(datetime.now(timezone.utc))
 import hashlib
 import time
 import random
@@ -82,7 +81,7 @@ def generate_rss(title, link, content):
     fe.id(hashlib.sha256(link.encode()).hexdigest())
     fe.title(title)
     fe.link(href=link)
-    fe.published(datetime.utcnow())
+    fe.published(datetime.now(timezone.utc))
     fe.description(content)
     fe.content(content, type="CDATA")
 
