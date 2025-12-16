@@ -36,22 +36,31 @@ def get_latest_rule_update():
 
 
 def extract_update_content(url):
-    time.sleep(random.uniform(2, 4))  # vær flink
+    time.sleep(random.uniform(2, 4))  # vær flink mod Trend Micro
 
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
 
-    article = soup.find("article") or soup.find("div", class_="content")
-    if not article:
-        raise RuntimeError("Could not find update content")
+    # Primær container (Drupal-style layout)
+    container = soup.find("div", id="block-system-main")
+
+    # Fallback
+    if not container:
+        container = soup.find("div", class_="region-content")
+
+    if not container:
+        raise RuntimeError("Could not find update content container")
 
     lines = []
-    for s in article.stripped_strings:
-        lines.append(s)
+    for elem in container.find_all(["p", "strong", "li", "br"]):
+        text = elem.get_text(strip=True)
+        if text:
+            lines.append(text)
 
     return "\n".join(lines)
+
 
 
 def generate_rss(title, link, content):
