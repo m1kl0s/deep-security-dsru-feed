@@ -7,16 +7,45 @@ import hashlib
 URL = "https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/deep-security-center"
 RSS_FILE = "deep_security_vulns.xml"
 
-def fetch_entries():
-    r = requests.get(URL, timeout=30)
-    r.raise_for_status()
-    soup = BeautifulSoup(r.text, "html.parser")
+import time
+import random
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; SecurityResearchBot/1.0)"
+}
+
+def fetch_entries():
+    retries = 5
+    backoff = 5  # seconds
+
+    for attempt in range(1, retries + 1):
+        try:
+            r = requests.get(URL, headers=HEADERS, timeout=30)
+
+            if r.status_code == 429:
+                wait = backoff * attempt + random.uniform(1, 3)
+                print(f"[!] Rate limited (429). Waiting {wait:.1f}s (attempt {attempt}/{retries})")
+                time.sleep(wait)
+                continue
+
+            r.raise_for_status()
+            break
+
+        except requests.exceptions.RequestException as e:
+            if attempt == retries:
+                print(f"[!] Failed after {retries} attempts: {e}")
+                return []
+
+            wait = backoff * attempt
+            print(f"[!] Error: {e}. Retrying in {wait}s")
+            time.sleep(wait)
+
+    soup = BeautifulSoup(r.text, "html.parser")
     entries = []
 
-    for a in soup.select("a[href]"):
+    for a in soup.find_all("a", href=True):
         title = a.get_text(strip=True)
-        href = a.get("href")
+        href = a["href"]
 
         if not title or "Deep Security" not in title:
             continue
@@ -30,6 +59,7 @@ def fetch_entries():
         })
 
     return {e["link"]: e for e in entries}.values()
+
 
 def generate_rss(entries):
     fg = FeedGenerator()
