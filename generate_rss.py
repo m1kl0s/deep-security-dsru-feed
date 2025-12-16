@@ -50,53 +50,41 @@ def extract_update_content(url):
     if not container:
         raise RuntimeError("Could not locate readable content")
 
-    lines = []
-
     stop_phrases = [
         "Featured Stories",
         "See all Security Updates"
     ]
 
     noise_phrases = {
-        "Email", "Facebook", "Twitter", "Google+",
-        "Linkedin", "Read more"
+        "Email", "Facebook", "Twitter", "Google+", "Linkedin", "Read more"
     }
 
+    lines = []
     for line in container.stripped_strings:
         line = line.strip()
 
-        # Stop når marketing starter
         if any(stop in line for stop in stop_phrases):
             break
 
-        # Fjern støj
         if line in noise_phrases:
             continue
 
         if len(line) < 2:
-            lines.append("")  # bevar tom linje
             continue
 
         lines.append(line)
 
-    # ── FORMATERING ─────────────────────────────
-    text = "\n".join(lines)
+    # 🔹 Konverter til pæn HTML
+    html_lines = []
+    for line in lines:
+        # Sektionstitler → fed
+        if line.endswith("Rules:") or line == "DESCRIPTION":
+            html_lines.append(f"<strong>{line}</strong><br><br>")
+        else:
+            html_lines.append(f"{line}<br>")
 
-    # Normalisér whitespace
-    while "\n\n\n" in text:
-        text = text.replace("\n\n\n", "\n\n")
+    return "".join(html_lines)
 
-    # Konverter til HTML der virker i RSS-readers
-    html = (
-        "<pre style=\"white-space: pre-wrap; font-family: monospace;\">"
-        + text.replace("&", "&amp;")
-              .replace("<", "&lt;")
-              .replace(">", "&gt;")
-              .replace("\n", "<br>")
-        + "</pre>"
-    )
-
-    return html
 
 
 
@@ -114,7 +102,7 @@ def generate_rss(title, link, content):
     fe.title(title)
     fe.link(href=link)
     fe.published(datetime.now(timezone.utc))
-    fe.description(content)
+    fe.description("Latest Deep Security Rule Update")
     fe.content(content, type="CDATA")
 
     fg.rss_file(RSS_FILE)
