@@ -34,7 +34,6 @@ def get_latest_rule_update():
 
     return title_text, href
 
-
 def extract_update_content(url):
     time.sleep(random.uniform(2, 4))  # vær flink mod Trend Micro
 
@@ -47,49 +46,49 @@ def extract_update_content(url):
     for tag in soup(["script", "style", "nav", "footer", "header"]):
         tag.decompose()
 
-    # Primært: <main>
+    # Primært indhold
     container = soup.find("main")
-
-    # Fallback: hele body
     if not container:
         container = soup.body
 
     if not container:
         raise RuntimeError("Could not locate readable content")
 
-lines = []
-stop_phrases = [
-    "Featured Stories",
-    "See all Security Updates"
-]
+    lines = []
 
-noise_phrases = [
-    "Email",
-    "Facebook",
-    "Twitter",
-    "Google+",
-    "Linkedin",
-    "Read more"
-]
+    stop_phrases = [
+        "Featured Stories",
+        "See all Security Updates"
+    ]
 
-for line in container.stripped_strings:
-    line = line.strip()
+    noise_phrases = [
+        "Email",
+        "Facebook",
+        "Twitter",
+        "Google+",
+        "Linkedin",
+        "Read more"
+    ]
 
-    # stop helt når vi når marketing
-    if any(stop in line for stop in stop_phrases):
-        break
+    for line in container.stripped_strings:
+        line = line.strip()
 
-    # filtrér kendt støj
-    if line in noise_phrases:
-        continue
+        # stop parsing når marketing starter
+        if any(stop in line for stop in stop_phrases):
+            break
 
-    # filtrér meget korte / meningsløse linjer
-    if len(line) < 3:
-        continue
+        # filtrér kendt støj
+        if line in noise_phrases:
+            continue
 
-    lines.append(line)
+        # filtrér tom / støj
+        if len(line) < 3:
+            continue
+
+        lines.append(line)
 
     return "\n".join(lines)
+
 
 
 
