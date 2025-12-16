@@ -87,7 +87,9 @@ def extract_update_content(url):
 
         lines.append(line)
 
-    return "\n".join(lines)
+        text = "\n".join(lines)
+        html = f"<pre>{text}</pre>"
+        return html
 
 
 
