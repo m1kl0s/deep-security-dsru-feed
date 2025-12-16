@@ -1,12 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/deep-security-center</link><description>Official Deep Security Rule Update feed (scraped)</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 16 Dec 2025 11:01:18 +0000</lastBuildDate><item><link>https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/9148/25-052-december-9-2025</link><description>Rule Update
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/deep-security-center</link><description>Official Deep Security Rule Update feed (scraped)</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 16 Dec 2025 11:05:45 +0000</lastBuildDate><item><link>https://www.trendmicro.com/vinfo/us/threat-encyclopedia/vulnerability/9148/25-052-december-9-2025</link><description>Rule Update
 25-052 (December 9, 2025)
 Publish date: December 09, 2025
-Email
-Facebook
-Twitter
-Google+
-Linkedin
 DESCRIPTION
 * indicates a new version of an existing rule
 Deep Packet Inspection Rules:
@@ -38,28 +33,9 @@ dotCMS
 Integrity Monitoring Rules:
 There are no new or updated Integrity Monitoring Rules in this Security Update.
 Log Inspection Rules:
-There are no new or updated Log Inspection Rules in this Security Update.
-See all Security Updates
-Featured Stories
-Beware of MCP Hardcoded Credentials: A Perfect Target for Threat Actors
-Poor secret management in MCP servers can lead to serious consequences, including data breaches and supply chain attacks. This article examines the reality of these unsecure configurations and offers practical recommendations that minimize the chances of exposure.
-Read more
-Lessons in Resilience from the Race to Patch SharePoint Vulnerabilities
-In this article, Trend Micro discusses how the fast-moving attacks using CVE-2025-53770 and CVE-2025-53771 have underscored the essential role of virtual patching and reliable intelligence in protecting organizations against evolving threats.
-Read more
-Unveiling AI Agent Vulnerabilities Part V: Securing LLM Services
-To conclude our series on agentic AI, this article examines emerging vulnerabilities that threaten AI agents, focusing on providing proactive security recommendations on areas such as code execution, data exfiltration, and database access.
-Read more
-Unveiling AI Agent Vulnerabilities Part IV: Database Access Vulnerabilities
-How can attackers exploit weaknesses in database-enabled AI agents? This research explores how SQL generation vulnerabilities, stored prompt injection, and vector store poisoning can be weaponized by attackers for fraudulent activities.
-Read more</description><content:encoded><![CDATA[Rule Update
+There are no new or updated Log Inspection Rules in this Security Update.</description><content:encoded><![CDATA[Rule Update
 25-052 (December 9, 2025)
 Publish date: December 09, 2025
-Email
-Facebook
-Twitter
-Google+
-Linkedin
 DESCRIPTION
 * indicates a new version of an existing rule
 Deep Packet Inspection Rules:
@@ -91,18 +67,4 @@ dotCMS
 Integrity Monitoring Rules:
 There are no new or updated Integrity Monitoring Rules in this Security Update.
 Log Inspection Rules:
-There are no new or updated Log Inspection Rules in this Security Update.
-See all Security Updates
-Featured Stories
-Beware of MCP Hardcoded Credentials: A Perfect Target for Threat Actors
-Poor secret management in MCP servers can lead to serious consequences, including data breaches and supply chain attacks. This article examines the reality of these unsecure configurations and offers practical recommendations that minimize the chances of exposure.
-Read more
-Lessons in Resilience from the Race to Patch SharePoint Vulnerabilities
-In this article, Trend Micro discusses how the fast-moving attacks using CVE-2025-53770 and CVE-2025-53771 have underscored the essential role of virtual patching and reliable intelligence in protecting organizations against evolving threats.
-Read more
-Unveiling AI Agent Vulnerabilities Part V: Securing LLM Services
-To conclude our series on agentic AI, this article examines emerging vulnerabilities that threaten AI agents, focusing on providing proactive security recommendations on areas such as code execution, data exfiltration, and database access.
-Read more
-Unveiling AI Agent Vulnerabilities Part IV: Database Access Vulnerabilities
-How can attackers exploit weaknesses in database-enabled AI agents? This research explores how SQL generation vulnerabilities, stored prompt injection, and vector store poisoning can be weaponized by attackers for fraudulent activities.
-Read more]]></content:encoded><guid isPermaLink="false">525a1eb9bacd616e7da9801f29894ead256766e6e469296e3c7b5c1be0563aef</guid><pubDate>Tue, 16 Dec 2025 11:01:18 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.]]></content:encoded><guid isPermaLink="false">525a1eb9bacd616e7da9801f29894ead256766e6e469296e3c7b5c1be0563aef</guid><pubDate>Tue, 16 Dec 2025 11:05:45 +0000</pubDate></item></channel></rss>
