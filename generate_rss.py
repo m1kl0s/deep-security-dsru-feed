@@ -43,23 +43,29 @@ def extract_update_content(url):
 
     soup = BeautifulSoup(r.text, "html.parser")
 
-    # Primær container (Drupal-style layout)
-    container = soup.find("div", id="block-system-main")
+    # Fjern støj
+    for tag in soup(["script", "style", "nav", "footer", "header"]):
+        tag.decompose()
 
-    # Fallback
+    # Primært: <main>
+    container = soup.find("main")
+
+    # Fallback: hele body
     if not container:
-        container = soup.find("div", class_="region-content")
+        container = soup.body
 
     if not container:
-        raise RuntimeError("Could not find update content container")
+        raise RuntimeError("Could not locate readable content")
 
     lines = []
-    for elem in container.find_all(["p", "strong", "li", "br"]):
-        text = elem.get_text(strip=True)
-        if text:
-            lines.append(text)
+    for line in container.stripped_strings:
+        # filtrér meget korte / støjlinjer
+        if len(line) < 3:
+            continue
+        lines.append(line)
 
     return "\n".join(lines)
+
 
 
 
