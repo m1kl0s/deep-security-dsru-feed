@@ -1,36 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 16 Dec 2025 11:46:41 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-25-052 (December 9, 2025)<br>
-Publish date: December 09, 2025<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 17 Dec 2025 07:27:02 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+25-053 (December 16, 2025)<br>
+Publish date: December 16, 2025<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-JetBrains TeamCity<br>
-1012470* - JetBrains TeamCity Reflected Cross-Site Scripting Vulnerability (CVE-2025-54534)<br>
-Network Scanner<br>
-1008800* - Bypass Network Scanner Traffic<br>
 React Server<br>
-1012497* - React Server Remote Code Execution Vulnerability (CVE-2025-55182 and CVE-2025-66478) - 1<br>
-1012494* - React Server Remote Code Execution Vulnerability (CVE-2025-55182 and CVE-2025-66478) - 2<br>
-TFTP Client Decoder<br>
-1003526* - Enable TFTP Decoder<br>
-Web Application Ruby Based<br>
-1012492 - Grafana Open Redirect Vulnerability (CVE-2025-6197)<br>
-Web Client Common<br>
-1004715* - HTTP Web Client Decoding<br>
-Web Server Common<br>
-1012412* - Bypass Network Scanner Traffic - XFF<br>
-1012495 - DataEase Server-Side Request Forgery Vulnerability (CVE-2025-64163)<br>
-1000128* - HTTP Protocol Decoding<br>
+1012499 - Identified Suspicious React Gadgets<br>
+SAP NetWeaver Java Application Server<br>
+1012455* - SAP NetWeaver AS JAVA Directory Traversal Vulnerability (CVE-2017-12637)<br>
+Unix Samba<br>
+1012454* - Linux Kernel KSMBD NULL Pointer Dereference Vulnerability (CVE-2025-22037)<br>
 Web Server HTTPS<br>
-1012496 - Fairsketch Rise Ultimate Project Manager and CRM HTML Injection Vulnerability (CVE-2025-60378)<br>
-Windows Services RPC Client DCERPC<br>
-1007538* - Windows Client Port Mapper Decoder<br>
-Zoho ManageEngine ADAuditPlus<br>
-1012468* - Zoho ManageEngine ADAudit Plus SQL Injection Vulnerability (CVE-2025-3836)<br>
-dotCMS<br>
-1012471* - dotCMS SQL Injection Vulnerability (CVE-2025-8311)<br>
+1012489 - LibreNMS Stored Cross-Site Scripting Vulnerability (CVE-2025-62411)<br>
+1012453* - Sitecore Experience Manager and Platform Cache Poisoning Vulnerability (CVE-2025-53693)<br>
+Web Server IIS<br>
+1012484 - Microsoft Windows ASP.NET HTTP Request Smuggling Vulnerability (CVE-2025-55315)<br>
+Web Server Miscellaneous<br>
+1012030* - XWiki Code Injection Vulnerability (CVE-2024-31982)<br>
+Web Server SharePoint<br>
+1012442* - Microsoft SharePoint Server-Side Request Forgery Vulnerability (CVE-2025-53760)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">525a1eb9bacd616e7da9801f29894ead256766e6e469296e3c7b5c1be0563aef</guid><pubDate>Tue, 16 Dec 2025 11:46:41 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">d7bc9b2997ce189c9f086297f71c385f3c254641612b0bb6899aacf02fb452a9</guid><pubDate>Wed, 17 Dec 2025 07:27:02 +0000</pubDate></item></channel></rss>
