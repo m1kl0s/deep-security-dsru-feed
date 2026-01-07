@@ -1,26 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 06 Jan 2026 07:30:32 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-25-054 (December 23, 2025)<br>
-Publish date: December 23, 2025<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 07 Jan 2026 07:30:02 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-001 (January 6, 2026)<br>
+Publish date: January 06, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
 Apache Kylin<br>
-1012483* - Apache Kylin Authentication Bypass Vulnerability (CVE-2025-61733)<br>
-React Server<br>
-1012506 - React Server Remote Code Execution Vulnerability (CVE-2025-55182 and CVE-2025-66478) - 3<br>
-Web Application Common<br>
-1012505 - Identified Suspicious PHP Command Injection Attack in URI<br>
-Web Application Ruby Based<br>
-1012438 - Grafana Open Redirect Vulnerability (CVE-2025-4123)<br>
+1012500 - Apache Kylin Arbitrary File Read Vulnerability (CVE-2025-61734)<br>
+CyberPanel<br>
+1012377* - CyberPanel Command Injection Vulnerability (CVE-2024-51568)<br>
+Ivanti Avalanche Remote Control Server<br>
+1012176* - Ivanti Avalanche Server-Side Request Forgery Vulnerability (CVE-2024-47008)<br>
+Progress WhatsUp Gold WCF service<br>
+1012117* - Progress WhatsUp Gold Directory Traversal Vulnerability (CVE-2024-4883 & CVE-2024-46909)<br>
+Unix Samba<br>
+1012437* - Linux Kernel KSMBD NULL Pointer Dereference Vulnerability (CVE-2025-38191)<br>
+Web Application PHP Based<br>
+1012475 - WordPress 'Events Manager' Plugin SQL Injection Vulnerability (CVE-2025-6970)<br>
+1007222* - WordPress Ajax Load More Plugin File Upload Vulnerability<br>
+1009168* - WordPress Authenticated Arbitrary File Deletion Vulnerability (CVE-2018-12895)<br>
+1006390* - WordPress Denial Of Service Vulnerability (CVE-2014-9034)<br>
+1007178* - WordPress Font Plugin Path Traversal Vulnerability (CVE-2015-7683)<br>
+1009544* - WordPress Image Remote Code Execution Vulnerability (CVE-2019-8942)<br>
+1008140* - WordPress REST API Unauthenticated Content Injection Vulnerability<br>
+1008411* - WordPress Tracking Code Manager Plugin Denial Of Service Vulnerability<br>
+1006436* - WordPress WP Symposium Shell Upload Vulnerability<br>
+1006467* - Wordpress XML-RPC Pingback gethostbyname Heap-based Buffer Overflow Vulnerability<br>
+1006242* - Wordpress XML-RPC XML Denial Of Service Vulnerability<br>
 Web Server HTTPS<br>
-1012489* - LibreNMS Stored Cross-Site Scripting Vulnerability (CVE-2025-62411)<br>
-1012469* - WordPress 'Everest Forms' Plugin Unrestricted File Upload Vulnerability (CVE-2025-1128)<br>
-Web Server Miscellaneous<br>
-1012303* - XWiki Code Injection Vulnerability (CVE-2025-24893)<br>
-Zoho ManageEngine ADAuditPlus<br>
-1012467* - Zoho ManageEngine ADAudit Plus SQL Injection Vulnerability (CVE-2025-36527)<br>
+1012384* - Roundcube Webmail Insecure Deserialization Vulnerability (CVE-2025-49113)<br>
+1012508 - WordPress 'AI Engine' Plugin Sensitive Information Exposure Vulnerability (CVE-2025-11749)<br>
+1012502 - WordPress 'Sneeit Framework' Plugin Remote Code Execution Vulnerability (CVE-2025-6389)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">e5cc802df32a3742df27c128dc85e60c038b8184b17a4bb7419d09f4708d3fdd</guid><pubDate>Tue, 06 Jan 2026 07:30:32 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">6687b8c875f172802958cb035ca4bf05a51927cfcfeabc3264468713240a6f56</guid><pubDate>Wed, 07 Jan 2026 07:30:02 +0000</pubDate></item></channel></rss>
