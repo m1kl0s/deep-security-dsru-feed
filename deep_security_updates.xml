@@ -1,29 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 10 Feb 2026 08:00:38 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-005 (February 3, 2026)<br>
-Publish date: February 03, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 11 Feb 2026 07:57:21 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-006 (February 10, 2026)<br>
+Publish date: February 10, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Adobe ColdFusion Central Config Server<br>
-1012491* - Adobe ColdFusion Directory Traversal Vulnerabilities (CVE-2025-61812 and CVE-2025-61822)<br>
-Apache Kylin<br>
-1012500* - Apache Kylin Arbitrary File Read Vulnerability (CVE-2025-61734)<br>
-DCERPC Services - Client<br>
-1012456* - Microsoft Windows SMB Client Remote Code Execution Vulnerability (CVE-2025-54101)<br>
-Flowise<br>
-1012507* - Flowise Command Injection Vulnerability (CVE-2025-8943)<br>
-Trend Micro Apex Central MsgReceiver<br>
-1012525 - Trend Micro Apex Central Remote Code Execution Vulnerability (CVE-2025-69258)<br>
-Web Application PHP Based<br>
-1012475* - WordPress 'Events Manager' Plugin SQL Injection Vulnerability (CVE-2025-6970)<br>
+Amazon Client<br>
+1012374 - AWS RequestId<br>
+DCERPC Services<br>
+1006906* - Identified Usage Of PsExec Command Line Tool (ATT&CK T1569.002)<br>
+Fortra GoAnywhere MFT<br>
+1012498 - Fortra GoAnywhere MFT Insecure Deserialization Vulnerability (CVE-2025-10035)<br>
+Splunk API<br>
+1012422* - Splunk Enterprise Reflected Cross-Site Scripting Vulnerability (CVE-2025-20297)<br>
 Web Server HTTPS<br>
-1012515* - GeoServer XML External Entity Vulnerability (CVE-2025-58360)<br>
-1012521 - HPE OneView Remote Code Execution Vulnerability (CVE-2025-37164)<br>
-1012510 - Zabbix Server SQL Injection Vulnerability (CVE-2025-27240)<br>
+1012490* - WordPress 'Post SMTP' Plugin Authentication Bypass Vulnerability (CVE-2025-11833)<br>
+1012502* - WordPress 'Sneeit Framework' Plugin Remote Code Execution Vulnerability (CVE-2025-6389)<br>
+Web Server Nagios<br>
+1012481 - Nagios XI Command Injection Vulnerability (CVE-2025-34227)<br>
 n8n<br>
-1012516 - n8n Arbitrary File Read Vulnerability (CVE-2026-21858)<br>
+1012531 - n8n Remote Code Execution Vulnerability (CVE-2026-1470)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">12b0656b61875d6c5fa28984ad9ccb3752d260c9e5c7fc69b0d98d611de042a2</guid><pubDate>Tue, 10 Feb 2026 08:00:38 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">3a137f4d933b3608dac703c48ba9db1fb2db172e3d87bdee663a3c846cd385ab</guid><pubDate>Wed, 11 Feb 2026 07:57:21 +0000</pubDate></item></channel></rss>
