@@ -1,27 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 03 Mar 2026 07:45:50 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-008 (February 24, 2026)<br>
-Publish date: February 24, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 04 Mar 2026 07:40:43 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-009 (March 3, 2026)<br>
+Publish date: March 03, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Ivanti Avalanche<br>
-1012411* - Ivanti Avalanche Enterprise Service Arbitrary File Upload Vulnerability (CVE-2021-42125)<br>
-MindsDB<br>
-1012534 - MindsDB Path Traversal Vulnerability (CVE-2025-68472)<br>
-Oracle E-Business Suite Web Interface<br>
-1012464* - Oracle E-Business Suite Server-Side Request Forgery Vulnerability (CVE-2025-61882 and CVE-2025-61884)<br>
-SNMP Server<br>
-1012537 - Net-SNMP Buffer Overflow Vulnerability (CVE-2025-68615)<br>
-SmarterTools SmarterMail<br>
-1012539 - SmarterTools SmarterMail Authentication Bypass Vulnerability (CVE-2026-23760)<br>
-Web Application PHP Based<br>
-1012526 - Wordpress 'News and Blog Designer Bundle' Plugin Local File Inclusion Vulnerability (CVE-2025-14502)<br>
-Web Server Common<br>
-1012536 - IOTSuite SQL Injection Vulnerability (CVE-2025-52694)<br>
+Figma MCP Server<br>
+1012529 - Framelink Figma MCP Server Remote Code Execution Vulnerability (CVE-2025-15061)<br>
 Web Server HTTPS<br>
-1012314* - Cacti CRLF Injection Vulnerability (CVE-2025-24367)<br>
+1012515* - GeoServer XML External Entity Vulnerability (CVE-2025-58360)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">9828ff0f149a95cef08b896680e44dbfa3a04971804552b98fde0ffa3408ae5d</guid><pubDate>Tue, 03 Mar 2026 07:45:50 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">23819b4dd1d5f554db15dc03b9d71d952866b9c6a7cd2880e78ca4174a909f89</guid><pubDate>Wed, 04 Mar 2026 07:40:43 +0000</pubDate></item></channel></rss>
