@@ -1,21 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 17 Mar 2026 07:56:07 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-010 (March 10, 2026)<br>
-Publish date: March 10, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 18 Mar 2026 07:56:24 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-011 (March 17, 2026)<br>
+Publish date: March 17, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Telnet Server<br>
-1012523* - Telnetd GNU InetUtils Authentication Bypass Vulnerability (CVE-2026-24061)<br>
-Web Server Adobe ColdFusion<br>
-1012509* - Adobe ColdFusion Directory Traversal Vulnerability (CVE-2025-43566)<br>
+Amazon Client<br>
+1012374* - AWS RequestId<br>
+Microsoft Configuration Manager<br>
+1012519* - Microsoft Configuration Manager Elevation of Privilege Vulnerability (CVE-2025-55320) - 1<br>
+Redis Server<br>
+1012520* - Redis Remote Code Execution Vulnerability (CVE-2025-49844)<br>
+SmarterTools SmarterMail<br>
+1012543 - SmarterTools SmarterMail Arbitrary File Upload Vulnerability (CVE-2025-52691)<br>
 Web Server HTTPS<br>
-1012532 - FreePBX Endpoint Manager Command Injection Vulnerability (CVE-2025-64328)<br>
-1012528 - WordPress 'The Events Calendar' Plugin SQL Injection Vulnerability (CVE-2025-12197)<br>
-1012535 - WordPress 'Themewinter Eventin' Path Traversal Vulnerability (CVE-2025-47445)<br>
-Web Server Nagios<br>
-1012481* - Nagios XI Command Injection Vulnerability (CVE-2025-34227)<br>
+1012535* - WordPress 'Eventin' Path Traversal Vulnerability (CVE-2025-47445)<br>
+1012541 - WordPress 'LA-Studio Element Kit for Elementor' Plugin Elevation of Privilege Vulnerability (CVE-2026-0920)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">91a8731dedaddca7cf7b7cf6d3fab55b57ef57fb51456f65ab4a84916db491d5</guid><pubDate>Tue, 17 Mar 2026 07:56:07 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">7b71696fce64dff5f247f302f4a8a94bb6ba05da85540535dcdae234a3b513db</guid><pubDate>Wed, 18 Mar 2026 07:56:24 +0000</pubDate></item></channel></rss>
