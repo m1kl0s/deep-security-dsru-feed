@@ -1,33 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 21 Apr 2026 08:54:13 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-015 (April 14, 2026)<br>
-Publish date: April 14, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 22 Apr 2026 08:50:16 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-016 (April 21, 2026)<br>
+Publish date: April 21, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-SNMP Server<br>
-1012537* - Net-SNMP Buffer Overflow Vulnerability (CVE-2025-68615)<br>
-SmarterTools SmarterMail<br>
-1012543* - SmarterTools SmarterMail Arbitrary File Upload Vulnerability (CVE-2025-52691)<br>
-Splunk Enterprise<br>
-1012550* - Splunk Enterprise Remote Code Execution Vulnerability (CVE-2024-36985)<br>
-Trend Micro InterScan Web Security Virtual Appliance<br>
-1010665* - InterScan Web Security Virtual Appliance Multiple Security Vulnerabilities<br>
-Trend Micro Mobile Security Server<br>
-1011957* - Mobile Security Server Cross-Site Scripting Vulnerability (CVE-2023-41176)<br>
-1011964* - Mobile Security Server Cross-Site Scripting Vulnerability (CVE-2023-41177)<br>
+Kerberos KDC Server<br>
+1012552 - Identified Kerberos PKINIT AD CS Certificate Impersonation via Certipy<br>
+1012336* - Microsoft Windows Kerberos Security Feature Bypass Vulnerability (CVE-2025-29809)<br>
+Trend Micro Control Manager<br>
+1008760* - Control Manager SQL Injection Vulnerability (CVE-2017-11383)<br>
+1008589* - Control Manager cmdHandlerLicenseManager SQL Injection Vulnerability (CVE-2017-11384)<br>
+1008721* - Control Manager cmdHandlerStatusMonitor SQL Injection Vulnerability (CVE-2017-11385)<br>
 Web Server Common<br>
-1010630* - InterScan Web Security Virtual Appliance Command Injection Vulnerability (CVE-2020-8605)<br>
+1010697* - InterScan Messaging Security Virtual Appliance Widget Information Disclosure Vulnerability (CVE-2020-27019)<br>
 Web Server HTTPS<br>
-1012546 - BeyondTrust Remote Support Command Injection Vulnerability (CVE-2026-1731)<br>
-1012532* - FreePBX Endpoint Manager Command Injection Vulnerability (CVE-2025-64328)<br>
-1012535* - WordPress 'Eventin' Path Traversal Vulnerability (CVE-2025-47445)<br>
-1012528* - WordPress 'The Events Calendar' Plugin SQL Injection Vulnerability (CVE-2025-12197)<br>
+1008293* - Control Manager Download Multiple Directory Traversal Information Disclosure Vulnerabilities<br>
+1008857* - Control Manager Multiple SQL Injection Remote Code Execution Vulnerability (CVE-2018-3604)<br>
+1012461* - LibreNMS Stored Cross-Site Scripting Vulnerability (CVE-2025-55296)<br>
 Web Server Miscellaneous<br>
-1004267* - InterScan Web Security Virtual Appliance Cross Site Request Forgery Vulnerability<br>
-1004258* - InterScan Web Security Virtual Appliance Multiple Vulnerabilities<br>
-1010626* - Interscan Web Security Virtual Appliance 'libuiauutil.so' Buffer Overflow Vulnerability (CVE-2020-28579)<br>
+1010627* - InterScan Web Security Virtual Appliance Buffer Overflow Vulnerability (CVE-2020-28578)<br>
+Web Server SharePoint<br>
+1012554 - Microsoft SharePoint Server Spoofing Vulnerability (CVE-2026-32201)<br>
+Windows SMB Server<br>
+1012219* - Deep Security Agent Command Injection Vulnerability (CVE-2024-51503)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">f5f9832ff9f30c1f6bc26f96414fe2ba37001a42a64eb8ec051e947bf8ea11b6</guid><pubDate>Tue, 21 Apr 2026 08:54:13 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">99a912d1224c5c5dfe6d5c8126c581d207d1f04f9a1e9dfe320748ea39d10827</guid><pubDate>Wed, 22 Apr 2026 08:50:16 +0000</pubDate></item></channel></rss>
