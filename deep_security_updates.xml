@@ -1,30 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 28 Apr 2026 09:25:59 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-016 (April 21, 2026)<br>
-Publish date: April 21, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 29 Apr 2026 09:12:22 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-017 (April 28, 2026)<br>
+Publish date: April 28, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Kerberos KDC Server<br>
-1012552 - Identified Kerberos PKINIT AD CS Certificate Impersonation via Certipy<br>
-1012336* - Microsoft Windows Kerberos Security Feature Bypass Vulnerability (CVE-2025-29809)<br>
+DCERPC Services<br>
+1010214* - Identified ApexOne Backup Folder Access<br>
+Langflow<br>
+1012547* - Langflow Remote Code Execution Vulnerability (CVE-2026-0768)<br>
 Trend Micro Control Manager<br>
-1008760* - Control Manager SQL Injection Vulnerability (CVE-2017-11383)<br>
-1008589* - Control Manager cmdHandlerLicenseManager SQL Injection Vulnerability (CVE-2017-11384)<br>
-1008721* - Control Manager cmdHandlerStatusMonitor SQL Injection Vulnerability (CVE-2017-11385)<br>
-Web Server Common<br>
-1010697* - InterScan Messaging Security Virtual Appliance Widget Information Disclosure Vulnerability (CVE-2020-27019)<br>
+1008799* - Control Manager 'cmdHandlerFileHandling' Directory Traversal Remote Code Execution Vulnerability (CVE-2017-11389)<br>
+Trend Micro ServerProtect EarthAgent<br>
+1011312* - Identified Usage Of ServerProtect Static Credential<br>
+<h3>WSO2</h3>
+1012549 - WSO2 Multiple Products Arbitrary File Upload Vulnerability (CVE-2025-3125)<br>
+Web Client Internet Explorer/Edge<br>
+1001426* - Microsoft Internet Explorer OfficeScan Client ActiveX Control Buffer Overflow<br>
 Web Server HTTPS<br>
-1008293* - Control Manager Download Multiple Directory Traversal Information Disclosure Vulnerabilities<br>
-1008857* - Control Manager Multiple SQL Injection Remote Code Execution Vulnerability (CVE-2018-3604)<br>
-1012461* - LibreNMS Stored Cross-Site Scripting Vulnerability (CVE-2025-55296)<br>
-Web Server Miscellaneous<br>
-1010627* - InterScan Web Security Virtual Appliance Buffer Overflow Vulnerability (CVE-2020-28578)<br>
+1011349* - Apex Central And Control Manager Remote Code Execution Vulnerability (CVE-2022-26871)<br>
+1011768* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-32531)<br>
+1011766* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-32532)<br>
+1011767* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-32533)<br>
+1011810* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-32535)<br>
 Web Server SharePoint<br>
-1012554 - Microsoft SharePoint Server Spoofing Vulnerability (CVE-2026-32201)<br>
-Windows SMB Server<br>
-1012219* - Deep Security Agent Command Injection Vulnerability (CVE-2024-51503)<br>
+1012542* - Microsoft SharePoint Server SQL Injection Vulnerability (CVE-2026-20947) - 1<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">99a912d1224c5c5dfe6d5c8126c581d207d1f04f9a1e9dfe320748ea39d10827</guid><pubDate>Tue, 28 Apr 2026 09:25:59 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">0c0d7067ff75212811852b4bc7867cfb82d7baf863084ba06a5ba917c0179553</guid><pubDate>Wed, 29 Apr 2026 09:12:22 +0000</pubDate></item></channel></rss>
