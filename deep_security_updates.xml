@@ -1,13 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 12 May 2026 09:43:24 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-019 (May 5, 2026)<br>
-Publish date: May 05, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 13 May 2026 09:47:32 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-020 (May 12, 2026)<br>
+Publish date: May 12, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
+Langflow<br>
+1012551 - Langflow Remote Code Execution Vulnerability (CVE-2026-33017)<br>
+Web Client HTTPS<br>
+1012375* - Apex Central Deserialization Of Untrusted Data Vulnerability (CVE-2025-49220)<br>
+Web Server Common<br>
+1012559 - Microsoft Windows LNK Spoofing Vulnerability (CVE-2026-32202)<br>
 Web Server HTTPS<br>
-1012555 - Wordpress 'Motors' Theme Elevation of Privilege Vulnerability (CVE-2025-4322)<br>
+1011944* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-52326)<br>
+1011953* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-52327)<br>
+1011952* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-52328)<br>
+1011951* - Apex Central Cross-Site Scripting Vulnerability (CVE-2023-52330)<br>
+1011967* - Apex Central File Upload Vulnerability (CVE-2023-52324)<br>
+1011943* - Apex Central Local File Inclusion Vulnerability (CVE-2023-52325)<br>
+1012371* - Apex Central Local File Inclusion Vulnerability (CVE-2025-47865)<br>
+1012372* - Apex Central Local File Inclusion Vulnerability (CVE-2025-47867)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">5281f647e0bc7817b764de18292e3e482bbe4a8f0833b9318dbf984920cf8a3f</guid><pubDate>Tue, 12 May 2026 09:43:24 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">fb53f198209f301eac107cd8e1a11c52f76feefedd6fd112b0540c19c50fc5f6</guid><pubDate>Wed, 13 May 2026 09:47:32 +0000</pubDate></item></channel></rss>
