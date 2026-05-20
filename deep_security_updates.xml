@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 19 May 2026 10:38:26 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-021 (May 16, 2026)<br>
-Publish date: May 16, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 20 May 2026 10:25:52 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-022 (May 19, 2026)<br>
+Publish date: May 19, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Mail Server Common<br>
-1012562 - Microsoft Word Remote Code Execution Vulnerability (CVE-2026-40364)<br>
-Server CLDAP<br>
-1012563 - Windows Netlogon Remote Code Execution Vulnerability (CVE-2026-41089)<br>
-Web Server HTTPS<br>
-1012564 - Microsoft Exchange Server Cross-Site Scripting Vulnerability (CVE-2026-42897)<br>
+LiteLLM<br>
+1012558 - BerryAI LiteLLM SQL Injection Vulnerability (CVE-2026-42208)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">3e7e78d138420273d8713506ef6aaecb25fe18b9617bf45bd5fc88561e2f2cc4</guid><pubDate>Tue, 19 May 2026 10:38:26 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">2696bd343af35ee3633072ecfdbab71201696b9d36c77b28c65ed5ee1eafa767</guid><pubDate>Wed, 20 May 2026 10:25:52 +0000</pubDate></item></channel></rss>
