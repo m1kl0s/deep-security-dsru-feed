@@ -1,20 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 18 Jun 2026 11:10:31 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-027 (June 16, 2026)<br>
-Publish date: June 16, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 19 Jun 2026 11:26:12 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-028 (June 18, 2026)<br>
+Publish date: June 18, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Git Push<br>
-1012584 - GitHub Enterprise Server Command Injection Vulnerability (CVE-2026-3854)<br>
-Oracle PeopleSoft PIA<br>
-1012580* - Oracle PeopleSoft PeopleTools SSRF Vulnerability (CVE-2026-35273)<br>
-1012585 - Oracle PeopleSoft Untrusted Data Deserialization Vulnerability (ZDI-CAN-31817)<br>
-Web Server Common<br>
-1012560* - Zhiyuan OA platform Arbitrary File Upload Vulnerability (CVE-2025-34040)<br>
 Web Server HTTPS<br>
-1012583 - Netsweeper WebAdmin Portal Remote Code Execution Vulnerability (CVE-2020-13167)<br>
+1012586 - Apache HTTP Server Remote Code Execution Vulnerability (CVE-2026-23918)<br>
+1012587 - IceWarp Path Traversal (CVE-2026-2493)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">f7e73ed39729aa5300b1a1f6d07eba6d92533594bd11001ae2b6cbabadcd7cf8</guid><pubDate>Thu, 18 Jun 2026 11:10:31 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">404c671348e683b78d71f4ba13fa65e0b261324e9cd41ea3b2a9df760b09557f</guid><pubDate>Fri, 19 Jun 2026 11:26:12 +0000</pubDate></item></channel></rss>
