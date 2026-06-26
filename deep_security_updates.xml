@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 25 Jun 2026 10:16:48 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-029 (June 23, 2026)<br>
-Publish date: June 23, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 26 Jun 2026 10:24:33 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-030 (June 25, 2026)<br>
+Publish date: June 25, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
+OfficeScan<br>
+1012561* - Apex One Management Console Multiple Directory Traversal Vulnerabilities (CVE-2025-71210 & CVE-2025-71211)<br>
 Web Server Common<br>
-1012589 - Control Web Panel Command Injection Vulnerability (CVE-2025-67888)<br>
-1012578 - Fuxa Path Traversal Vulnerability (CVE-2026-25895)<br>
-1012559* - Microsoft Windows LNK Spoofing Vulnerability (CVE-2026-32202)<br>
+1012594 - CMS Made Simple News Module SQL Injection Vulnerability (CVE-2019-9053)<br>
 Web Server HTTPS<br>
-1012592 - Allegra Cross-Site Scripting Authentication Bypass Vulnerability(CVE-2026-11443)<br>
-1012588 - Drupal Core SQL Injection Vulnerability (CVE-2026-9082)<br>
-Web Server Miscellaneous<br>
-1012398* - XWiki SQL Injection Vulnerability (CVE-2025-32969)<br>
+1012593 - Progress Software Kemp LoadMaster (CVE-2026-8037)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">a1a6a33acb70d8394c0626c63cdab88618b34ee8498c6b01007ae3c395eff6a7</guid><pubDate>Thu, 25 Jun 2026 10:16:48 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">c55363175102ef40d11a4aa8197040bf5f15ef330e101c3a694ef0fb84708fb8</guid><pubDate>Fri, 26 Jun 2026 10:24:33 +0000</pubDate></item></channel></rss>
