@@ -1,20 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 09 Jul 2026 10:31:57 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-032 (July 7, 2026)<br>
-Publish date: July 07, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 10 Jul 2026 10:25:26 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-033 (July 9, 2026)<br>
+Publish date: July 09, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Splunk Enterprise<br>
-1012595 - Splunk Enterprise Authentication Bypass Vulnerability (CVE-2026-20253)<br>
-Web Application PHP Based<br>
-1012574* - WordPress 'StoryChief' Plugin Unauthenticated RCE (CVE-2025-7441)<br>
 Web Server HTTPS<br>
-1012597 - Allegra Directory Traversal Information Disclosure Vulnerability (CVE-2026-11442)<br>
-Web Server Miscellaneous<br>
-1012572* - Adobe Commerce Improper Input Validation (CVE-2025-54236)<br>
-1012579* - Crawl4AI Hooks Code Execution Vulnerability (CVE-2026-26216)<br>
+1012598 - ATEN Unizon uploadSSL Directory Traversal Arbitrary File Deletion Vulnerability (CVE-2026-9775)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">670d4a2e953405a70f3b8ddfa04642765066d95e8ded35e9becc67218f24ab64</guid><pubDate>Thu, 09 Jul 2026 10:31:57 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">8d775135c85173a8578010e044d94b4dfaab74ad21cdd11569c41c9193f0e8e1</guid><pubDate>Fri, 10 Jul 2026 10:25:26 +0000</pubDate></item></channel></rss>
