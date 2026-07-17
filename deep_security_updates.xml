@@ -1,15 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 16 Jul 2026 09:18:19 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-034 (July 14, 2026)<br>
-Publish date: July 14, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 17 Jul 2026 09:11:48 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-035 (July 16, 2026)<br>
+Publish date: July 16, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Oracle E-Business Suite Web Interface<br>
-1012600 - Oracle E-Business Suite Payments Authentication Bypass Vulnerability (CVE-2026-46817)<br>
+Linux Kernel Netfilter<br>
+1012603 - Linux Kernel Netfilter Nf_Conntrack_H323 Out-Of-Bounds Read Vulnerability (CVE-2026-23455)<br>
+Web Application PHP Based<br>
+1012606 - JoomShaper Helix3 Improper Access Control Vulnerability (CVE-2026-49049)<br>
+1012604 - Tassos Novarain Framework Improper Access Control Vulnerability (CVE-2026-21627)<br>
 Web Server Common<br>
-1012590 - Apache Ofbiz Code Injection Vulnerability (CVE-2026-46586)<br>
+1012591 - Ivanti Sentry OS Command Injection Vulnerability (CVE-2026-10520)<br>
+Web Server HTTPS<br>
+1012599 - Cacti Unauthenticated Local File Inclusion Vulnerability (CVE-2026-39938)<br>
+Web Server SharePoint<br>
+1012609 - Microsoft SharePoint Remote Code Execution Vulnerability (CVE-2026-50522)<br>
+1012608 - Microsoft SharePoint Remote Code Execution Vulnerability (CVE-2026-56164)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">9a201762aa40072112fa36dfb326f2250035b2d5a085fa3fb5bb7e9ebc6efd08</guid><pubDate>Thu, 16 Jul 2026 09:18:19 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">1c21f9e2a26bcd631064b4ea009d5b5f117f9b64c01a348a33216c509abc808c</guid><pubDate>Fri, 17 Jul 2026 09:11:48 +0000</pubDate></item></channel></rss>
