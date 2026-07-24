@@ -1,22 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 23 Jul 2026 09:26:42 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-036 (July 21, 2026)<br>
-Publish date: July 21, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 24 Jul 2026 09:23:22 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-037 (July 23, 2026)<br>
+Publish date: July 23, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Git Push<br>
-1012584* - GitHub Enterprise Server Command Injection Vulnerability (CVE-2026-3854)<br>
-Tomcat Tribes NioReceiver<br>
-1012610 - Apache Tomcat EncryptInterceptor Bypass Vulnerability (CVE-2026-34486)<br>
-Web Server Common<br>
-1012596* - Microsoft Exchange Server HTTP NTLM Password Spray<br>
-Web Server HTTPS<br>
-1012592* - Allegra Cross-Site Scripting Authentication Bypass Vulnerability(CVE-2026-11443)<br>
-1012613 - WordPress REST API Batch Route Confusion SQL Injection Vulnerability (CVE-2026-63030)<br>
-Web Server Nagios<br>
-1012614 - Nagios Log Server Command Injection Vulnerability (CVE-2025-34322)<br>
+Ivanti Endpoint Manager<br>
+1012616 - Ivanti Endpoint Manager Mobile Authentication Bypass Vulnerability (CVE-2026-5786)<br>
+JetBrains TeamCity<br>
+1012612 - JetBrains TeamCity Command Injection Vulnerability (CVE-2026-49373)<br>
+Web Application PHP Based<br>
+1012611 - ThinkPHP Framework Local File Inclusion Vulnerability (CVE-2022-47945)<br>
+Zimbra Proxy<br>
+1012607 - Zimbra Collaboration Local File Inclusion Vulnerability (CVE-2025-68645)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">9db35d3ff11515a15141bc08dcae75d28104aaf30f383f2767f2004670d9f0bb</guid><pubDate>Thu, 23 Jul 2026 09:26:42 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">331ef4aa970135b4b2293ed253c38b06255efe9c2ed60868f052e92084d5798b</guid><pubDate>Fri, 24 Jul 2026 09:23:22 +0000</pubDate></item></channel></rss>
