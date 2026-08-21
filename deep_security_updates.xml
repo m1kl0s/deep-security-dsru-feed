@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 20 Aug 2026 07:44:23 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-044 (August 18, 2026)<br>
-Publish date: August 18, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 21 Aug 2026 07:47:01 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-045 (August 20, 2026)<br>
+Publish date: August 20, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Web Server HTTPS<br>
-1012636 - Draytek Vigorconnect Directory Traversal Vulnerability (CVE-2021-20124)<br>
-1012632 - ServiceNow Code Injection Vulnerability (CVE-2026-6875)<br>
-1012631 - Sitecore Experience Commerce Insecure Deserialization Vulnerability (CVE-2025-53690)<br>
-Web Server SharePoint<br>
-1012629 - Microsoft SharePoint Server Authentication Bypass Vulnerability (CVE-2023-29357)<br>
+Langflow<br>
+1012619 - Langflow Code Injection Remote Code Execution Vulnerability (CVE-2025-3248)<br>
+NFS Server<br>
+1012627 - Linux Kernel Nfsv4.0 Lock Replay Cache Heap Overflow Vulnerability (CVE-2026-31402)<br>
+cPanel<br>
+1012628 - WebPros cPanel Code Injection Vulnerability (CVE-2026-29202)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">0ba55e7d82965f0637d40b419cac67577548ddfbaa39b2b1712d33267e971d2c</guid><pubDate>Thu, 20 Aug 2026 07:44:23 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">a1c51df07ab65a5a55786074234dc9c1aa794b787148e77e425536ce0ad21b70</guid><pubDate>Fri, 21 Aug 2026 07:47:01 +0000</pubDate></item></channel></rss>
