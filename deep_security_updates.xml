@@ -1,13 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 03 Sep 2026 12:00:16 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-048 (September 1, 2026)<br>
-Publish date: September 01, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 04 Sep 2026 12:02:14 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-049 (September 3, 2026)<br>
+Publish date: September 03, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
+DHCP Server<br>
+1012640 - Windows DHCP Server Remote Code Execution Vulnerability (CVE-2026-50518)<br>
+Kentico Xperience<br>
+1012648 - Kentico Xperience Staging Service Authentication Bypass Vulnerability (CVE-2025-2746)<br>
+PaperCut<br>
+1012649 - PaperCut Authentication Bypass and RCE Vulnerability (CVE-2026-81578 and CVE-2026-82078)<br>
 Web Server Common<br>
-1012644 - Qlik Sense Enterprise Transfer-Encoding Request Smuggling Vulnerability (CVE-2023-48365)<br>
+1012643 - Zabbix Authentication Bypass Vulnerability (CVE-2022-23134)<br>
+Web Server HTTPS<br>
+1012645 - Adminer Server-Side Request Forgery Vulnerability (CVE-2021-21311)<br>
+1012654 - SimpleHelp OpenID Connect Authentication Bypass Vulnerability (CVE-2026-48558)<br>
+Web Server Oracle<br>
+1012624 - Oracle Java SE Sandbox Bypass Vulnerability (CVE-2025-30761)<br>
 <h3>Integrity Monitoring Rules:</h3>
-There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
+1002853* - Application - Apache Tomcat<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">d48605d63a692cced9e00cad0d4a7691c6add9e91cd3ac14b3131afe3978f7ab</guid><pubDate>Thu, 03 Sep 2026 12:00:16 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">468557326e9630dd2b79d2dad8c0c1aec5194ace7fec47622f99baa9c1abe40e</guid><pubDate>Fri, 04 Sep 2026 12:02:14 +0000</pubDate></item></channel></rss>
