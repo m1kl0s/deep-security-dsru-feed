@@ -1,35 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 10 Sep 2026 12:07:44 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-050 (September 8, 2026)<br>
-Publish date: September 08, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 11 Sep 2026 12:06:03 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-051 (September 10, 2026)<br>
+Publish date: September 10, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-IBM Cognos TM1 Admin Server<br>
-1012650 - IBM Planning Analytics Code Injection Vulnerability (CVE-2019-4716)<br>
-JFrog<br>
-1012668 - JFrog Artifactory Authentication Bypass Vulnerability (CVE-2026-82329)<br>
-Kentico Xperience<br>
-1012646 - Kentico Xperience Directory Traversal Vulnerability (CVE-2025-2749)<br>
-SmarterTools SmarterMail<br>
-1012647 - SmarterMail ConnectToHub Unauthenticated RCE (CVE-2026-24423)<br>
+Kerberos KDC Server<br>
+1012681 - Windows Kerberos Remote Code Execution Vulnerability (CVE-2026-69676)<br>
+MLflow<br>
+1012667 - Mlflow Unauthenticated Endpoint Redirect Vulnerability (CVE-2026-64849)<br>
+Mail Server Common<br>
+1012666 - Zimbra Collaboration SNMP Notification Remote Code Execution Vulnerability (CVE-2026-73570)<br>
+Ray Framework<br>
+1012673 - Ray Ai Compute Engine Remote Code Execution Vulnerability (CVE-2025-62593)<br>
+Server CLDAP<br>
+1012563* - Windows Netlogon Remote Code Execution Vulnerability (CVE-2026-41089)<br>
 Web Application Common<br>
-1012659 - Kestra Authentication Bypass Vulnerability (CVE-2026-49869)<br>
-Web Application PHP Based<br>
-1012656 - Mirasvit Cache Warmer Deserialization Vulnerability (CVE-2026-45247)<br>
+1012660 - Starlette Host Header Validation Bypass Vulnerability (CVE-2026-48710)<br>
 Web Server Common<br>
-1012662 - Gitea Diffpatch API Git Hook Remote Code Execution Vulnerability (CVE-2026-60004)<br>
-1012653 - Sitecore Cms Insecure Deserialization Vulnerability (CVE-2019-9874)<br>
-1012655 - Sitecore Cms Insecure Deserialization Vulnerability (CVE-2019-9875)<br>
+1012672 - VMware Workspace ONE UEM Server-Side Request Forgery Vulnerability (CVE-2021-22054)<br>
 Web Server HTTPS<br>
-1012657 - ATEN Unizon writeFileToHttp Directory Traversal Information Disclosure Vulnerability (CVE-2026-9776)<br>
-1012658 - Laravel Livewire Code Injection Vulnerability (CVE-2025-54068)<br>
-1012664 - Sangoma Switchvox SQL Injection Vulnerability (CVE-2026-9586)<br>
-Web Server SharePoint<br>
-1012652 - Microsoft SharePoint Remote Code Execution Vulnerability (CVE-2026-20963)<br>
-ZohoCorp ManageEngine Desktop Central<br>
-1012642 - Zoho ManageEngine Desktop Central Filter Configuration Authentication Bypass Vulnerability (CVE-2021-44515)<br>
+1012670 - Citrix Session Recording Privilege Escalation Vulnerability (CVE-2024-8068)<br>
+1012677 - DELMIA Apriso Deserialization Vulnerability (CVE-2025-5086)<br>
+1012675 - Gladinet Triofox Authentication Bypass Vulnerability (CVE-2025-12480)<br>
+1012680 - SAP Buffer Overflow Vulnerability (CVE-2026-44756)<br>
+1012682 - Windows HTTP Print Provider Remote Code Execution Vulnerability (CVE-2026-69623)<br>
+1012669 - ZKTeco BioTime Path Traversal Vulnerability (CVE-2023-38950)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">3c85d88c7fe3cf72b59d054b0ca0ab0ae8464eaf14fe2a27300d465ad7345c34</guid><pubDate>Thu, 10 Sep 2026 12:07:44 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">29dcd9b044e19d25930be282ee543909e55bd85dd9b355a3dfb2766690889266</guid><pubDate>Fri, 11 Sep 2026 12:06:03 +0000</pubDate></item></channel></rss>
