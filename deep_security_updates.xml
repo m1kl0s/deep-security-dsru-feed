@@ -1,16 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 29 Sep 2026 13:53:02 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-055 (September 24, 2026)<br>
-Publish date: September 24, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 30 Sep 2026 13:28:28 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-056 (September 29, 2026)<br>
+Publish date: September 29, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
+Ivanti Endpoint Manager<br>
+1012704 - Ivanti Epm Absolute Path Traversal Vulnerability (CVE-2024-13161)<br>
+Langflow<br>
+1012702 - Langflow Remote Code Execution Vulnerability (CVE-2026-0770)<br>
+Remote Desktop Protocol Server<br>
+1012383* - Identified RDS Local Resource Redirection Attempt<br>
+1012380* - Identified Suspicious File Transfer From RDP Redirect Drive<br>
+Web Application PHP Based<br>
+1012711 - JoomlaCK Page Builder CK Arbitrary File Upload Vulnerability (CVE-2026-56290)<br>
+Web Server Common<br>
+1012705 - OpenPLC ScadaBR Cross-Site Scripting Vulnerability (CVE-2021-26829)<br>
+1012703 - Prtg Network Monitor Local File Inclusion Vulnerability (CVE-2018-19410)<br>
 Web Server HTTPS<br>
-1012700 - Citrix Session Recording Remote Code Execution Vulnerability (CVE-2024-8069)<br>
-1012699 - Fortinet FortiClientEMS SQL Injection Vulnerability (CVE-2026-21643)<br>
-1012691 - GitLab CE/EE Path Traversal Vulnerability (CVE-2026-85706)<br>
-1012638* - WordPress Cross-Site Scripting Vulnerability (CVE-2026-64638)<br>
+1012708 - Adobe Commerce Server-Side Template Injection Vulnerability (CVE-2022-24086)<br>
+1012674 - Yii Framework Remote Code Execution Vulnerability (CVE-2024-58136)<br>
+Web Server Rejetto<br>
+1012706 - Rejetto Code Injection Vulnerability (CVE-2014-6287)<br>
 <h3>Integrity Monitoring Rules:</h3>
-There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
+1003019* - Application - Trend Micro Deep Security Agent / Relay<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">b1dae92ef76651988b6de42d03107525a4c1aae9c8f08267977ea616035e3383</guid><pubDate>Tue, 29 Sep 2026 13:53:02 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">f509431daca0419d29170f772511fb6f2c724f2bd1ff7f76ccd79cdc931ca14f</guid><pubDate>Wed, 30 Sep 2026 13:28:28 +0000</pubDate></item></channel></rss>
