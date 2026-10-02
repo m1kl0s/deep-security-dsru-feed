@@ -1,18 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 01 Oct 2026 14:19:53 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-057 (October 1, 2026)<br>
-Publish date: October 01, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 02 Oct 2026 13:41:45 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-058 (October 2, 2026)<br>
+Publish date: October 02, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Web Server Common<br>
-1012714 - Wordpress Get_Page_Template Function Remote Code Execution Vulnerability (CVE-2026-87902)<br>
-Web Server HTTPS<br>
-1012713 - Microsoft Exchange Server Elevation of Privilege Vulnerability (CVE-2026-45504)<br>
-1012697 - WordPress 'Pix for WooCommerce' Plugin Remote Code Execution Vulnerability (CVE-2026-3891)<br>
-Web Server SharePoint<br>
-1012715 - Microsoft SharePoint Server Remote Code Execution Vulnerability (CVE-2026-65660)<br>
+Oracle PeopleSoft PIA<br>
+1012580* - Oracle PeopleSoft PeopleTools SSRF Vulnerability (CVE-2026-35273)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">3a0d4ca233164a00f3243a6f47e24633fbeeed91199f32ce8f284ece8016d90d</guid><pubDate>Thu, 01 Oct 2026 14:19:53 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">6b5d85bc049d94c35f8dcd064482982d96823351d892d4e32fe900ac78f63d6f</guid><pubDate>Fri, 02 Oct 2026 13:41:45 +0000</pubDate></item></channel></rss>
