@@ -1,13 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 13 Oct 2026 14:53:29 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-060 (October 9, 2026)<br>
-Publish date: October 09, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 14 Oct 2026 12:45:15 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-061 (October 13, 2026)<br>
+Publish date: October 13, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
+Web Application Tomcat<br>
+1012718 - Commvault QCommand Path Traversal Vulnerability (CVE-2025-57790)<br>
 Web Server Common<br>
-1012721 - Atlassian Data Center Products Arbitrary File Access Vulnerability (CVE-2026-21589)<br>
+1012662* - Gitea Diffpatch API Git Hook Remote Code Execution Vulnerability (CVE-2026-60004)<br>
+Web Server HTTPS<br>
+1012727 - Cisco Catalyst SD-WAN Manager Authentication Bypass Vulnerability (CVE-2026-76504)<br>
+1012677* - DELMIA Apriso Deserialization Vulnerability (CVE-2025-5086)<br>
+1012724 - WordPress 'Gravity SMTP' Plugin Information Disclosure Vulnerability (CVE-2026-4020)<br>
+1012717 - Wordpress 'bookingpress-appointment-booking-pro' Plugin Authentication Bypass Vulnerability (CVE-2026-9830)<br>
+1012726 - libevent HTTP Parsing NUL Byte Vulnerability (CVE-2026-63385)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">f7a0adc4f98dfd4cc7a14c96929d87aec243617c92afe94d747c5ce9dbab609b</guid><pubDate>Tue, 13 Oct 2026 14:53:29 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">e0da74aae92e16a37bae86b31377573a4ded32aa602d1d8d14921694f536dcdf</guid><pubDate>Wed, 14 Oct 2026 12:45:15 +0000</pubDate></item></channel></rss>
