@@ -1,34 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 20 Oct 2026 12:36:40 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-062 (October 15, 2026)<br>
-Publish date: October 15, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 21 Oct 2026 12:48:13 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-064 (October 21, 2026)<br>
+Publish date: October 21, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-DNS Server<br>
-1012729 - Windows DNS Server Buffer Overflow Vulnerability (CVE-2026-62878)<br>
-FTP Server IIS<br>
-1012733 - Microsoft Windows FTP Service Remote Code Execution Vulnerability (CVE-2026-49172)<br>
-OpenSSL<br>
-1012730 - GnuTLS DTLS Handshake Fragment Underflow Vulnerability (CVE-2026-33845)<br>
 Web Application PHP Based<br>
-1012710 - iCagenda extension for Joomla Unrestricted File Upload Vulnerability (CVE-2026-48939)<br>
-Web Application Tomcat<br>
-1012720 - ForgeRock OpenAM Insecure Deserialization Vulnerability (CVE-2021-35464)<br>
-Web Client Mozilla Firefox<br>
-1012731 - Mozilla Firefox and Thunderbird Use-After-Free Vulnerability (CVE-2026-4696)<br>
-1012736 - Mozilla Firefox/Thunderbird COLRv1 Font Integer Overflow in Graphics Component Vulnerability (CVE-2026-16357)<br>
-1012735 - Mozilla Firefox/Thunderbird Use-After-Free in FontFaceSet Vulnerability (CVE-2025-6424)<br>
-Web Server Common<br>
-1012655* - Sitecore Cms Insecure Deserialization Vulnerability (CVE-2019-9875)<br>
-Web Server HTTPS<br>
-1012739 - Microsoft Exchange Server Information Disclosure Vulnerability (CVE-2026-96940)<br>
-1012728 - libevent evhttp HTTP Request Smuggling Vulnerability (CVE-2026-63382)<br>
-Web Server IIS<br>
-1012678* - Microsoft Exchange Server Elevation of Privilege Vulnerability (CVE-2026-62911)<br>
-Zimbra Proxy<br>
-1012719 - Zimbra Collaboration Suite WebEx Zimlet Forgery Vulnerability (CVE-2020-7796)<br>
+1012749 - PHP Application Remote Code Execution Vulnerability<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-1008670* - Microsoft Windows Security Events - 3<br>]]></content:encoded><guid isPermaLink="false">8fc0669e3a550e6adaf638f8730d08057cbf7bcf14fae1a5a72dd70851280099</guid><pubDate>Tue, 20 Oct 2026 12:36:40 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">4206dfe8e132fe251da0b81096f7156abe7864dda70fc6c8254f39fd03f0a44f</guid><pubDate>Wed, 21 Oct 2026 12:48:13 +0000</pubDate></item></channel></rss>
