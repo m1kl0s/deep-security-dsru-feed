@@ -1,13 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 10 Nov 2026 15:28:32 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-078 (November 7, 2026)<br>
-Publish date: November 07, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 11 Nov 2026 14:59:14 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-079 (November 10, 2026)<br>
+Publish date: November 10, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-Web Server Common<br>
-1012792 - Adobe Commerce and Magento Unrestricted File Upload Vulnerability (CVE-2026-48356)<br>
+DNS Server<br>
+1012794 - Multiple DNS Resolvers DNSSEC KeyTrap Denial of Service Vulnerability (CVE-2023-50387)<br>
+SSL/TLS Server<br>
+1012780* - eMudhra Compromised Certificate Detection (CVE-2026-114406)<br>
+Unix Samba<br>
+1012781 - Linux Kernel ksmbd SMB Race Condition Vulnerability (ZDI-CAN-33774)<br>
+Web Application PHP Based<br>
+1012744* - Drupal Core Remote Code Execution Vulnerability (CVE-2020-13671)<br>
+Web Application Tomcat<br>
+1012783 - Apache Log4j2 JDBC Appender JNDI Injection Vulnerability (CVE-2021-44832)<br>
+Web Server IIS<br>
+1012793 - Microsoft Windows MSMQ Remote Code Execution Vulnerability (CVE-2024-30080)<br>
+Web Server SharePoint BDC<br>
+1012758 - Microsoft SharePoint Server Remote Code Execution Vulnerability (CVE-2026-63520)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">ed8fcb86d3116ac728ba93d4276f333f106a94da120da01645b975e9ec9b7aab</guid><pubDate>Tue, 10 Nov 2026 15:28:32 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">84771e1460ecdfc6078ec95005e10548a78b02d798ac88777a89a8bca2bd326c</guid><pubDate>Wed, 11 Nov 2026 14:59:14 +0000</pubDate></item></channel></rss>
