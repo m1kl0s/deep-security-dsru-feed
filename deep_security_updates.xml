@@ -1,25 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Thu, 12 Nov 2026 15:51:46 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-079 (November 10, 2026)<br>
-Publish date: November 10, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Fri, 13 Nov 2026 15:12:47 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-080 (November 12, 2026)<br>
+Publish date: November 12, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-DNS Server<br>
-1012794 - Multiple DNS Resolvers DNSSEC KeyTrap Denial of Service Vulnerability (CVE-2023-50387)<br>
-SSL/TLS Server<br>
-1012780* - eMudhra Compromised Certificate Detection (CVE-2026-114406)<br>
-Unix Samba<br>
-1012781 - Linux Kernel ksmbd SMB Race Condition Vulnerability (ZDI-CAN-33774)<br>
-Web Application PHP Based<br>
-1012744* - Drupal Core Remote Code Execution Vulnerability (CVE-2020-13671)<br>
-Web Application Tomcat<br>
-1012783 - Apache Log4j2 JDBC Appender JNDI Injection Vulnerability (CVE-2021-44832)<br>
-Web Server IIS<br>
-1012793 - Microsoft Windows MSMQ Remote Code Execution Vulnerability (CVE-2024-30080)<br>
-Web Server SharePoint BDC<br>
-1012758 - Microsoft SharePoint Server Remote Code Execution Vulnerability (CVE-2026-63520)<br>
+FTP Server Linux<br>
+1012782 - vsftpd Backdoor Command Execution Vulnerability (CVE-2011-2523)<br>
+Unix Samba Client<br>
+1012795 - Linux Kernel SMB Client Coalesce_T2() Out-Of-Bounds Read/Write Vulnerability (CVE-2026-89633)<br>
+VoIP Smart<br>
+1012798 - FreeSWITCH SIP MESSAGE Handler Command Injection Vulnerability (CVE-2026-116779)<br>
+Web Application Common<br>
+1012797 - Yealink Device Management Remote Code Execution Vulnerability (CVE-2021-27561)<br>
+Web Server Common<br>
+1012785 - Apache Tomcat HTTP/2 Request Smuggling Vulnerability (CVE-2026-86350)<br>
+Web Server HTTPS<br>
+1012799 - Accellion File Transfer Appliance SQL Injection Vulnerability (CVE-2021-27101)<br>
+1012796 - Mitel MiCollab Path Traversal Vulnerability (CVE-2024-55550)<br>
+1012786 - Node.js TLS Certificate IPv4 dNSName SAN Vulnerability (CVE-2026-105483)<br>
+Zimbra Proxy<br>
+1012790 - Zimbra Collaboration Suite Cross-Site Scripting Vulnerability (CVE-2024-27443)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">84771e1460ecdfc6078ec95005e10548a78b02d798ac88777a89a8bca2bd326c</guid><pubDate>Thu, 12 Nov 2026 15:51:46 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">1063f843e6566bd6cd9422149497f2aebdb3857d127e9c565ca571b2514ed6b3</guid><pubDate>Fri, 13 Nov 2026 15:12:47 +0000</pubDate></item></channel></rss>
