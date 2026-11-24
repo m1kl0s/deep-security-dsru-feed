@@ -1,23 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 23 Nov 2026 19:05:01 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
-26-083 (November 19, 2026)<br>
-Publish date: November 19, 2026<br>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Trend Micro – Deep Security Rule Updates</title><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Self-contained Deep Security Rule Update feed</description><atom:link href="https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 24 Nov 2026 18:44:27 +0000</lastBuildDate><item><link>https://m1kl0s.github.io/deep-security-dsru-feed/deep_security_updates.xml</link><description>Deep Security Rule Update – full content embedded</description><content:encoded><![CDATA[Rule Update<br>
+26-084 (November 24, 2026)<br>
+Publish date: November 24, 2026<br>
 <h3>DESCRIPTION</h3>
 * indicates a new version of an existing rule<br>
 <h3>Deep Packet Inspection Rules:</h3>
-DNS Server<br>
-1012729* - Windows DNS Server Buffer Overflow Vulnerability (CVE-2026-62878)<br>
-HP Intelligent Management Center (IMC)<br>
-1012809 - Apache OFBiz Remote Code Execution Vulnerability (CVE-2026-83542)<br>
-1012810 - Apache OFBiz Screen Definition Code Injection Vulnerability (CVE-2026-68524)<br>
-Progress WhatsUp Gold<br>
-1012767* - Progress WhatsUp Gold SQL Injection Vulnerability (CVE-2024-6670)<br>
-Web Server HTTPS<br>
-1012814 - F5 NGINX HTTP/2 Integer Underflow Vulnerability (CVE-2026-123007)<br>
-1012811 - Keycloak SAML HTTP-Redirect Binding Signature Bypass Vulnerability (CVE-2026-117691)<br>
-1012807 - WP Libre Form Arbitrary PHP File Upload Vulnerability (CVE-2026-118423) - 1<br>
-1012808 - WP Libre Form Arbitrary PHP File Upload Vulnerability (CVE-2026-118423) - 2<br>
+CoAP Server<br>
+1012816 - libcoap OSCORE CBOR Out-of-bounds Read Vulnerability (CVE-2026-29013)<br>
+Web Server Common<br>
+1012818 - ExifTool DjVu Remote Code Execution Vulnerability (CVE-2021-22204)<br>
+Windows Services RPC Server DCERPC<br>
+1009892* - Identified Domain-Level Information Dumping Over DCERPC (ATT&CK T1003.006, T1018)<br>
 <h3>Integrity Monitoring Rules:</h3>
 There are no new or updated Integrity Monitoring Rules in this Security Update.<br>
 <h3>Log Inspection Rules:</h3>
-There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">e1f819d6d5fc97ff6dc5e8f5d95841726c6813ded8daf7f41f68e77fbfb8284f</guid><pubDate>Mon, 23 Nov 2026 19:05:01 +0000</pubDate></item></channel></rss>
+There are no new or updated Log Inspection Rules in this Security Update.<br>]]></content:encoded><guid isPermaLink="false">e8851e7bcfb7ed05352381cb4a51828aa442aaaf3c804f8d63db1a0a7da74c2e</guid><pubDate>Tue, 24 Nov 2026 18:44:27 +0000</pubDate></item></channel></rss>
